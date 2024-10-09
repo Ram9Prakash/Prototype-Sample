@@ -38,7 +38,6 @@
       // Modify or remove this function to customize the visually presented
       // way that non-critical warnings and error messages are presented to the
       // user.
-      //Testing
       function unityShowBanner(msg, type) {
         function updateBannerVisibility() {
           warningBanner.style.display = warningBanner.children.length ? 'block' : 'none';
@@ -60,9 +59,9 @@
       var buildUrl = "Build";
       var loaderUrl = buildUrl + "/Prototype-Sample.loader.js";
       var config = {
-        dataUrl: buildUrl + "/Prototype-Sample.data.unityweb",
-        frameworkUrl: buildUrl + "/Prototype-Sample.framework.js.unityweb",
-        codeUrl: buildUrl + "/Prototype-Sample.wasm.unityweb",
+        dataUrl: buildUrl + "/Prototype-Sample.data",
+        frameworkUrl: buildUrl + "/Prototype-Sample.framework.js",
+        codeUrl: buildUrl + "/Prototype-Sample.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "Prototype-Sample",
